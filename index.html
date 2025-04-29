@@ -1,14 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- CDN CSS LINK FOR AOS SCROLL ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="product.html">Product</a>
-    <a href="commitments.html">Commitments </a>
+    <main id="mainBody">
+        <div class="nameBox">
+            <p data-aos="fade-left">Hii..</p>
+            <h1 data-aos="fade-right">I'm Gayatri Pardeshi</h1>
+            <p data-aos="fade-left">A Frontend Developer</p>
+        </div>
+
+        <nav data-aos="fade-right">
+            <div>
+                <a href="#mainBody"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <div>
+                <a href="#about"><i class="fa-solid fa-user-tie"></i></a>
+            </div>
+            <div>
+                <a href="#projects"><i class="fa-solid fa-diagram-project"></i></a>
+            </div>
+            <div>
+                <a href="#experience"><i class="fa-solid fa-bars-progress"></i></a>
+            </div>
+            <!-- <div>
+                <a href="#achievments"><i class="fa-solid fa-trophy"></i></a>
+            </div> -->
+            <div>
+                <a href="#contact"><i class="fa-solid fa-phone-volume"></i></a>
+            </div>
+            <!-- about us ,project, experience, achievment , contact -->
+        </nav>
+    </main>
+
+    <section class="aboutSection" id="about">
+        <main>
+            <article data-aos="fade-up-right">
+                <img src="./assets/4889843.jpg" width="100%" height="100%" alt="">
+            </article>
+
+            <article class="aboutArticle" data-aos="fade-up-left" data-aos-duration="1000">
+                <h1 data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <ins>ABOUT</ins>
+                </h1>
+                <P>As a budding IT professional with strong communication skills and a passion for
+                    Frontend Developer,Motivated and detail-oriented Frontend Developer with a strong foundation in HTML,
+                    CSS, JavaScript . Proficient in creating user-friendly and visually appealing websites.</P>
+
+                <section class="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500">
+                    <div class="">
+                        <h3>Qualification</h3>
+                        <ul>
+                            <li>B.Sc(IT) CGPA : 8.86</li>
+                            <li>MGM University</li>
+                            <!-- <p>MGM University</p> -->
+
+                            <li>HSC(Science)
+                                %age : 84.00%</li>
+                            <li>Maharashtra State Board</li>
+                            <!-- 
+                            <li>SSC(Science) %age : 80.20%</li>
+                            <p>Maharashtra State Board</p> -->
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Reactjs</li>
+                            <li>Javascript</li>
+                            <li>Css</li>
+                            <li>HTML</li>
+                            <!-- <li>Bootstrape</li> -->
+                            <li>Java</li>
+                            <li>Sql</li>
+                            <!-- <li>Python</li> -->
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </section>
+
+    <section class="projects" id="projects">
+        <main>
+            <h2>What I Did ? </h2>
+            <article>
+                <div data-aos="fade-down-right">
+                    <h1>Tata Ev Car Frontend Website</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta suscipit deserunt, impedit beatae
+                        amet neque eligendi debitis provident assumenda sunt perferendis nesciunt illo voluptas, iure,
+                        necessitatibus tempore. Quia, cumque laudantium?</p>
+                </div>
+                <div data-aos="fade-down-left">
+                    <h1>Student Management System</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit molestias saepe blanditiis vel
+                        iusto exercitationem, iste cupiditate fugit, nesciunt quas recusandae omnis cumque quod!
+                        Excepturi beatae et similique necessitatibus repellat!</p>
+                </div>
+                <div data-aos="fade-up-right">
+                    <h1>Calculator</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente ad fugit provident
+                        reiciendis quis recusandae beatae maxime, quasi, nam placeat quam corporis nisi dolore veniam,
+                        pariatur eaque laborum deleniti?</p>
+                </div>
+                <div data-aos="fade-up-left">
+                    <h1>Library Management System</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis aliquid quibusdam iure,
+                        sequi recusandae quae inventore omnis. Praesentium illo necessitatibus quis maxime, eius alias
+                        in non accusantium officia dignissimos.</p>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <section class="experience " id="experience">
+        <main>
+            <h1>Experience</h1>
+            <article>
+                <h3>Company : CodTechIT Solutions</h3>
+                <h3>Duration : 3 Months</h3>
+                <h3>Designation : React Developer</h3>
+                <h3>Technology Stack : HTML , CSS , Javascript, Bootstrape</h3>
+                <ul>
+                    <h3 style="padding: 20px;">Projects :</h3>
+                    <li>1. Weather Dashboard </li>
+                    <li>2. Movie Search App</li>
+                    <li>3. Real-Time Chat Application</li>
+                    <li>4. Chrome Extension</li>
+                </ul>
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore quibusdam doloribus tempora!
+                    Nam quo error repellat quasi, fuga nihil quis dolores quidem maiores sit dignissimos expedita a
+                    sapiente autem!</p>
+            </article>
+        </main>
+    </section>
+    <!-- <section class="achievements" id="achievments">
+        <main>
+
+        </main>
+    </section> -->
+    <section class="contact" id="contact">
+        <main>
+            <h1>Contact Me </h1>
+            <p class="allLinks">
+                <a href="tel:9307928225"> <i class="fa-solid fa-phone-volume"></i></a>
+
+                <a href="mailto:rajputgayatri462@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/9307928225"><i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="https://github.com/rajputgayatri462"><i class="fa-brands fa-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/gayatri-pardeshi764/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </p>
+            <article>
+                <div class="info">
+                    <div>
+                        <p>
+                            <strong>Name :</strong>
+                            Gayatri Pardeshi
+                            <!-- <a href=""></a> -->
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>Contact :</strong>
+                            1234567894
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>Email :</strong>
+                            rajputgayatri462@gmail.com
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>Whatsapp :</strong>
+                        1234567894
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>github :</strong>
+                            <a href="https://github.com/rajputgayatri462">Link</a>
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>Linkedin :</strong>
+                            <a href="https://www.linkedin.com/in/gayatri-pardeshi764/">Link</a>
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <strong>Address :</strong>
+                            Qspider Deccan , Pune
+                            <!-- <a href=""></a> -->
+                        </p>
+                    </div>
+
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1891.624984625034!2d73.84344443853942!3d18.517602795643885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c079d4c6d387%3A0x2ef12f3e384c82a!2sQspiders%20Pune%20Deccan%20Gymkhana!5e0!3m2!1sen!2sin!4v1741431044718!5m2!1sen!2sin"
+                            width="400" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Enter Subject">
+                        <textarea placeholder="Description"></textarea>
+                        <a href="" id="submitLink">Contact Me</a>
+                    </form>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <!-- CDN SCRIPT FOR AOS ANIMATION SCROLL EFFECT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
